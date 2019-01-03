@@ -1,0 +1,66 @@
+.index-page {
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.title-1 {
+    color: #fff !important;
+}
+
+
+.title-films {
+    color: #ec174f !important;
+    text-transform: uppercase;
+}
+
+.films-badges { 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.button--small {
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+}
+
+.card__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.card__info > * {
+    margin-top: 0 !important;
+}
+
+.section-page-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-page-head > * {
+    margin-top: 0 !important;
+}
+
+.notify--information {
+    background-image: -webkit-linear-gradient(90deg, #084271 0%, #0071db 100%);
+    background-image: -ms-linear-gradient(90deg, #084271 0%, #0071db 100%);
+    color: #fff !important;
+}
+
+.head-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.head-box > * {
+    margin-top: 0 !important;
+}
+
+.button {
+    align-self: flex-start;
+}
